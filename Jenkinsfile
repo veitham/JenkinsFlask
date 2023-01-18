@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Building') {
             steps {
-                git clone 'https://github.com/veitham/JenkinsFlask.git'
+                git 'https://github.com/veitham/JenkinsFlask.git'
             }
         }
 
